@@ -11,7 +11,7 @@ $(document).on("keypress", "#Password", function (event) {
 
 function createAndSaveFile(txt, user) {
   var content = txt;
-  var filename = user;
+  var filename = user + ".txt";
 
   var blob = new Blob([content], { type: "text/plain;charset=utf-8" });
 
